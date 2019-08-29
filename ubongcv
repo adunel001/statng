@@ -1,7 +1,91 @@
 <!DOCTYPE html>
 <head>
 <title>My CV</title>
-<link href="style.css" rel="stylesheet">
+<style type="text/css">
+body {
+	background-color: #EAEDF4;
+}
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #333333;
+	margin: 0 0 15px;
+	font-weight: 700;
+	line-height: 1.4em;
+	text-transform: uppercase;
+	position: relative;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+	font-family: Arial;
+	font-size: 15px;
+	line-height: normal;
+	font-weight: 400;
+	color: #333333;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+a {
+    color: #5d6b82;
+}
+
+.fix {
+	overflow: hidden;
+	border: 1px;
+	border-color: #EAEDF4;
+	margin: 0.0.0.0;
+}
+
+.relative {
+    position: relative;
+    overflow: hidden;
+}
+
+.absulute {
+    position: absolute;
+}
+.subtitle {
+	font-family: "Arial";
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+}
+</style>
+
 </head>
 
 <body>
@@ -12,7 +96,7 @@
           <li>State Of Origin: Akwa-Ibom</li>
           <li>Date of birth: 02 Feb. 1983 </li>
       </ul></td>
-      <td rowspan="2" align="right" valign="top"><img class="fix" src="https://clip.ng/PM5x" width="200" height="200"></td>
+      <td rowspan="2" align="right" valign="top"><img class="img" src="https://clip.ng/PM5x" width="200" height="200"></td>
       <td width="447" height="30" bgcolor="#EAEDF4">&nbsp; &nbsp; <strong>Contact</strong>
       <br></td>
   </tr>
